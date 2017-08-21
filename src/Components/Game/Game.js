@@ -35,6 +35,7 @@ const Game = props =>
         benutze: { method: props.commandUse },
         daumenraus: { method: props.commandThumbUp },
         gehe: { method: props.commandGo },
+        github: { method: props.commandGithub },
         hardrestart: { method: props.commandHardRestart },
         hilfe: { method: props.commandHelp },
         inventar: { method: props.commandInventory },
@@ -58,6 +59,7 @@ const Game = props =>
 
 Game.propTypes = {
   backgroundColor: PropTypes.string.isRequired,
+  commandGithub: PropTypes.func.isRequired,
   commandGo: PropTypes.func.isRequired,
   commandHardRestart: PropTypes.func.isRequired,
   commandHelp: PropTypes.func.isRequired,

@@ -10,6 +10,8 @@ Beispiel: "clear".`,
 Beispiel: "daumenraus".`,
   gehe: `Gehe zu einem Objekt oder in eine Richtung.
 Beispiel: "gehe fenster".`,
+  github: `Öffnet das GitHub repository.
+Beispiel: "github".`,
   hardrestart: `Lösche den gespeicherten Spielstand und starte das Spiel neu.
 Beispiel: "hardrestart".`,
   help: false,

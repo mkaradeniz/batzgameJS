@@ -617,6 +617,10 @@ const Container = WrappedComponent => {
 
     // Commands
 
+    commandGithub = (args, print) => {
+      window.open('https://github.com/mkaradeniz/batzgameJS/', '_blank')
+    }
+
     commandGo = (args, print) => {
       const { gameStarted } = this.state
       const target = args._[0]
@@ -769,6 +773,7 @@ const Container = WrappedComponent => {
       return (
         <WrappedComponent
           backgroundColor={this.state.settings.backgroundColor}
+          commandGithub={this.commandGithub}
           commandGo={this.commandGo}
           commandHardRestart={this.commandHardRestart}
           commandHelp={this.commandHelp}
