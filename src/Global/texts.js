@@ -33,7 +33,7 @@ Du kannst nur einen Speicherstand haben, das heißt, wenn du bereits einen vorha
 Wenn du vor dem verlassen des Spiels gespeichert hast, wird das Spiel automatisch geladen.
 Beispiel: "speichern".`,
   starten: `Starte das Spiel.
-Beispiel: "start".`,
+Beispiel: "starten".`,
   umsehen: `Sehe dich am aktuellen Ort um.
 Beispiel: "umsehen".`,
   untersuche: `Untersuche einen Gegenstand.
