@@ -23,8 +23,12 @@
     "terminal-in-react": "^3.4.2"
   },
   "devDependencies": {
+    "enzyme": "^2.9.1",
+    "enzyme-to-json": "^1.5.1",
     "eslint-plugin-prettier": "^2.1.2",
+    "jest-enzyme": "^3.8.0",
     "prop-types": "^15.5.10",
-    "react-scripts": "1.0.11"
+    "react-scripts": "1.0.11",
+    "react-test-renderer": "^15.6.1"
   }
 }
